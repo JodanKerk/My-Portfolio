@@ -1,1 +1,127 @@
+h1 {
+    font-family: sans-serif;
+    font-size:900%;
+    font-weight: 300;
+    color: black;
+    background-color:#dddddd;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
 
+h2 {
+    font-family: sans-serif;
+    font-weight:200;
+    font-size:500%;
+    padding-left: 40px;
+}
+
+.hg {
+    font-family: sans-serif;
+    font-weight:400;
+    font-size:300%;
+    color:#444444;
+    vertical-align: top;
+
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: 200;
+    padding-left:40px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+li {
+    font-family: sans-serif;
+    padding:10px;
+    background-color:#eeeeee;
+    border-left: 10px solid navy;
+    padding-left:25px;
+    font-size: 100%;
+}
+
+a {
+    color: navy;
+    font-weight:200;
+    text-decoration:none;
+}
+
+iframe{
+    padding-left:40px;
+    border:none;
+}
+
+.fit-picture {
+    max-width:98%;
+    padding-left:40px;
+}
+
+.grid-picture {
+    height:500px;
+    padding:40px;
+    align-items: center;
+}
+.grid-icon {
+    height:50px;
+    padding:40px;
+    vertical-align:bottom;
+}
+
+.projects-wrapper{
+    display: grid;
+    margin-left:40px;
+    background-color: #eeeeee;
+    color: #444444;
+    text-align: center;
+    border-color: gray;
+    border-width:50px;
+    border-radius:5px;
+    padding:20px;
+    padding-top:40px;
+    font-size: 100%;
+    grid-template-columns: 33%  33% 33%;
+    grid-template-areas:
+    "PacMen EyeMovement MapMarkers"
+}
+
+.footer-wrapper{
+    display: grid;
+    margin-left:40px;
+    margin-top:40px;
+    background-color: #eeeeee;
+    color: #444444;
+    text-align: center;
+    border-color: none;
+    border-width:50px;
+    border-radius:5px;
+    padding:20px;
+    padding-top:40px;
+    font-size: 100%;
+    grid-template-columns: 50%  50%;
+    grid-template-areas:
+    "Social-Media Contact-Info"
+}
+
+.github-wrapper{
+    display: grid;
+    margin-left:40px;
+    margin-top:40px;
+    background-color: #eeeeee;
+    color: #444444;
+    text-align: center;
+    border-color: none;
+    border-width:50px;
+    border-radius:5px;
+    font-size: 100%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "GitHub-Info"
+}

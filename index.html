@@ -1,8 +1,82 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <!-- Import the CSS file styles.css -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
     <body>
+        <!--Title-->
         <h1>Jodan's Portfolio</h1>
-        <h2>My Projects</h2>
-        <a href="https://jodankerk.github.io/First-Project/">My Project</a>
+        <br>
+
+        <!--Table of Contents-->
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+
+        <!--Bio-->
+        <div>
+            <img class="fit-picture"
+            src = "Biking.jpg"
+            alt = "A photo of me biking">
+
+            <p>Hi! I'm Jodan and I love biking, tinkering and coding! This page is dedicated to showcasing my coding projects.</p>
+        </div>
+
+        <!--About Me-->
+        <div>
+            <h2>About Me</h2>
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=1"></iframe>
+            <p>This is my favourite song! I love music!</p>
+            <p style="font-size:50%">Did you fall for the Rickroll?</p>
+            <img class="fit-picture"
+            src = "Fireworks.jpg"
+            alt = "A nice photo I took">
+            <p>And I love photography too! Here's a nice picture I took from my phone!</p>
+        </div>
+
+        <!--My Projects-->
+        <div>
+            <h2>My Projects</h2>
+            <div class="projects-wrapper">
+                <div class="PacMen">
+                    <a href="https://jodankerk.github.io/First-Project/" class="hg">PacMen Factory</a>
+                    <img class = "grid-picture" src = "PacMan1.png" alt = "PacMan">
+                    <p>This project has a feature where the user can start the game and create multiple PacMen on the screen.</p>
+                </div>
+                <div class="EyeMovement">
+                    <a href="https://jodankerk.github.io/Eye-Movement-Project/" class="hg">Eye Movement</a>
+                    <img class = "grid-picture" src = "Eye Movement.png" alt = "Eyeballs">
+                    <p>This project allows the user to control the movement of two eyeballs by moving the cursor.</p>
+                </div>
+                <div class="MapMarkers">
+                    <a href="https://jodankerk.github.io/Plot-a-Day-in-the-Town/" class="hg">Mapbox Markers</a>
+                    <img class = "grid-picture" src = "Mapbox.png" alt = "Map">
+                    <p>This project shows the different locations I visit on a Saturday afternoon by using the Mapbox API.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div>
+            <div class="footer-wrapper">
+                <div class="Social-Media">
+                    <h class="hg">Social Media</h>
+                    <br/>
+                    <a href="https://sg.linkedin.com/" class="hg"><img class = "grid-icon" src = "LinkedIn.png" alt = "LinkedIn icon"></a>
+                    <a href="https://www.instagram.com/" class="hg"><img class = "grid-icon" src = "Insta.png" alt = "Instagram icon"></a>
+                    <a href="https://www.facebook.com/" class="hg"><img class = "grid-icon" src = "Facebook.png" alt = "Facebook icon"></a>
+                </div>
+
+                <div class="Contact-Info">
+                    <h class="hg" style="text-align:left">Contact Information</h>
+                    <br/>
+                    <p style="padding-left:0px;text-align:centre">e-Mail: <a href=mailto:"jodan9463@gmail.com">jodan9463@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
